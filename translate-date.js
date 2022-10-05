@@ -1,10 +1,10 @@
 var dateclass = "translate-date";
 
-$(".pagination_button").on("click", function () {
+$(".pagination_next-prev-btn").on("click", function () {
   setTimeout(translateDate, 1000);
 });
 
-$(".pagination_page-btn-wrapper").on("click", function () {
+$(".pagination_page-btns-wrapper").on("click", function () {
   setTimeout(translateDate, 1000);
 });
 
